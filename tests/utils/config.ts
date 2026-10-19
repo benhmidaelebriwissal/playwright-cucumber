@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { LaunchOptions } from '@playwright/test';
 const SLOW_MO = parseInt(process.env.ACCEPTANCE_TESTS_SLOW_MO || '0');
 const HEADLESS = Boolean(process.env.HEADLESS || false);

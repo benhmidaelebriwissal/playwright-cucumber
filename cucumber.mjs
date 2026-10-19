@@ -2,7 +2,7 @@ import fs from 'fs';
 
 const getWorldParams = () => {
   return {
-    appurl: 'https://demowebshop.tricentis.com',
+    appurl: 'https://demowebshop.tricentis.com/login',
   };
 };
 
